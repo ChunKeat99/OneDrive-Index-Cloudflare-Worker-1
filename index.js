@@ -47,8 +47,8 @@ const config = {
      * example: POST https://storage.idx0.workers.dev/Images/?upload=<filename>&key=<secret_key>
      */
     "upload": {
-        "enable": false,
-        "key": "your_secret_1key_here"
+        "enable": true,
+        "key": "7103TfYN5B61dHN_2s6~21nF7_rmnn.Ds5"
     },
     /**
      * Feature Proxy Download
@@ -66,9 +66,9 @@ const config = {
  * NAME           user name
  * PASS           password
  */
-const AUTH_ENABLED = false
+const AUTH_ENABLED = true
 const NAME = "admin"
-const PASS = "password"
+const PASS = "admin"
 
 /**
  * RegExp for basic auth credentials
@@ -445,7 +445,7 @@ function renderHTML(body) {
     <body>
       ${body}
       <div style="flex-grow:1"></div>
-      <footer><p>Powered by <a href="https://github.com/heymind/OneDrive-Index-Cloudflare-Worker">OneDrive-Index-CF</a>, hosted on <a href="https://www.cloudflare.com/products/cloudflare-workers/">Cloudflare Workers</a>.</p></footer>
+      <footer><p>Powered by <a href="https://github.com/chunkeat99/OneDrive-Index-Cloudflare-Worker-1">OneDrive-Index-CF</a>, hosted on <a href="https://www.cloudflare.com/products/cloudflare-workers/">Cloudflare Workers</a>.</p></footer>
       <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js" data-manual></script>
       <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
     </body>
